@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300594B619125C650050272B /* LayerLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 300594B519125C640050272B /* LayerLayoutManager.m */; };
+		3073ED68190E73A600049F00 /* fold-arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 3073ED66190E73A600049F00 /* fold-arrow-left.png */; };
+		3073ED69190E73A600049F00 /* fold-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3073ED67190E73A600049F00 /* fold-arrow.png */; };
+		3073ED73190E761800049F00 /* ButtonLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3073ED72190E761800049F00 /* ButtonLayer.m */; };
+		30B2D526190F852200B510F9 /* ContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B2D525190F852200B510F9 /* ContainerView.m */; };
+		30B2D542190F8A2A00B510F9 /* NSBezierPath+CGPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B2D541190F8A2A00B510F9 /* NSBezierPath+CGPath.m */; };
+		30B56A35190E331F00B357B8 /* paused-drive-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B56A33190E331F00B357B8 /* paused-drive-icon.png */; };
+		30B56A36190E331F00B357B8 /* sync.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B56A34190E331F00B357B8 /* sync.png */; };
+		30B56A53190E491800B357B8 /* NSObject+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B56A52190E491800B357B8 /* NSObject+Utilities.m */; };
+		30C018EC190CE1C40084C5FB /* NSColor+CGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C018EB190CE1C40084C5FB /* NSColor+CGColor.m */; };
+		30EA01691910DDED0032D9D6 /* DetailedLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EA01681910DDED0032D9D6 /* DetailedLayer.m */; };
+		30EB2E9D190902A400FB5377 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EB2E9C190902A400FB5377 /* Cocoa.framework */; };
+		30EB2EA7190902A400FB5377 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30EB2EA5190902A400FB5377 /* InfoPlist.strings */; };
+		30EB2EA9190902A400FB5377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB2EA8190902A400FB5377 /* main.m */; };
+		30EB2EAD190902A400FB5377 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 30EB2EAB190902A400FB5377 /* Credits.rtf */; };
+		30EB2EB0190902A400FB5377 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB2EAF190902A400FB5377 /* AppDelegate.m */; };
+		30EB2EB3190902A400FB5377 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EB2EB1190902A400FB5377 /* MainMenu.xib */; };
+		30EB2EBC190904B100FB5377 /* LayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB2EBA190904B100FB5377 /* LayerViewController.m */; };
+		30EB2EBD190904B100FB5377 /* LayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EB2EBB190904B100FB5377 /* LayerViewController.xib */; };
+		30EB2EC0190904F400FB5377 /* Modal.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB2EBF190904F400FB5377 /* Modal.m */; };
+		30EB2EC31909293400FB5377 /* ModalLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB2EC21909293400FB5377 /* ModalLayer.m */; };
+		30EB2EC519094D7F00FB5377 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EB2EC419094D7F00FB5377 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		300594B419125C640050272B /* LayerLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerLayoutManager.h; sourceTree = "<group>"; };
+		300594B519125C640050272B /* LayerLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerLayoutManager.m; sourceTree = "<group>"; };
+		3073ED66190E73A600049F00 /* fold-arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fold-arrow-left.png"; sourceTree = "<group>"; };
+		3073ED67190E73A600049F00 /* fold-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fold-arrow.png"; sourceTree = "<group>"; };
+		3073ED71190E761800049F00 /* ButtonLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonLayer.h; sourceTree = "<group>"; };
+		3073ED72190E761800049F00 /* ButtonLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonLayer.m; sourceTree = "<group>"; };
+		30B2D524190F852200B510F9 /* ContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerView.h; sourceTree = "<group>"; };
+		30B2D525190F852200B510F9 /* ContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerView.m; sourceTree = "<group>"; };
+		30B2D540190F8A2A00B510F9 /* NSBezierPath+CGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+CGPath.h"; sourceTree = "<group>"; };
+		30B2D541190F8A2A00B510F9 /* NSBezierPath+CGPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+CGPath.m"; sourceTree = "<group>"; };
+		30B56A33190E331F00B357B8 /* paused-drive-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paused-drive-icon.png"; sourceTree = "<group>"; };
+		30B56A34190E331F00B357B8 /* sync.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sync.png; sourceTree = "<group>"; };
+		30B56A51190E491800B357B8 /* NSObject+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Utilities.h"; sourceTree = "<group>"; };
+		30B56A52190E491800B357B8 /* NSObject+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Utilities.m"; sourceTree = "<group>"; };
+		30C018EA190CE1C40084C5FB /* NSColor+CGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+CGColor.h"; sourceTree = "<group>"; };
+		30C018EB190CE1C40084C5FB /* NSColor+CGColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+CGColor.m"; sourceTree = "<group>"; };
+		30EA01671910DDED0032D9D6 /* DetailedLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedLayer.h; sourceTree = "<group>"; };
+		30EA01681910DDED0032D9D6 /* DetailedLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedLayer.m; sourceTree = "<group>"; };
+		30EB2E98190902A400FB5377 /* LayerExp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayerExp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EB2E9C190902A400FB5377 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		30EB2E9F190902A400FB5377 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		30EB2EA0190902A400FB5377 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		30EB2EA1190902A400FB5377 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30EB2EA4190902A400FB5377 /* LayerExp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LayerExp-Info.plist"; sourceTree = "<group>"; };
+		30EB2EA6190902A400FB5377 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30EB2EA8190902A400FB5377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30EB2EAA190902A400FB5377 /* LayerExp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LayerExp-Prefix.pch"; sourceTree = "<group>"; };
+		30EB2EAC190902A400FB5377 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		30EB2EAE190902A400FB5377 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30EB2EAF190902A400FB5377 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30EB2EB2190902A400FB5377 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		30EB2EB9190904B100FB5377 /* LayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerViewController.h; sourceTree = "<group>"; };
+		30EB2EBA190904B100FB5377 /* LayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerViewController.m; sourceTree = "<group>"; };
+		30EB2EBB190904B100FB5377 /* LayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerViewController.xib; sourceTree = "<group>"; };
+		30EB2EBE190904F400FB5377 /* Modal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modal.h; sourceTree = "<group>"; };
+		30EB2EBF190904F400FB5377 /* Modal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Modal.m; sourceTree = "<group>"; };
+		30EB2EC11909293400FB5377 /* ModalLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalLayer.h; sourceTree = "<group>"; };
+		30EB2EC21909293400FB5377 /* ModalLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalLayer.m; sourceTree = "<group>"; };
+		30EB2EC419094D7F00FB5377 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30EB2E95190902A300FB5377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EB2E9D190902A400FB5377 /* Cocoa.framework in Frameworks */,
+				30EB2EC519094D7F00FB5377 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30EB2E8D190902A300FB5377 = {
+			isa = PBXGroup;
+			children = (
+				30EB2EA2190902A400FB5377 /* LayerExp */,
+				30EB2E9B190902A400FB5377 /* Frameworks */,
+				30EB2E99190902A400FB5377 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30EB2E99190902A400FB5377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30EB2E98190902A400FB5377 /* LayerExp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30EB2E9B190902A400FB5377 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30EB2E9C190902A400FB5377 /* Cocoa.framework */,
+				30EB2E9E190902A400FB5377 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30EB2E9E190902A400FB5377 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30EB2EC419094D7F00FB5377 /* QuartzCore.framework */,
+				30EB2E9F190902A400FB5377 /* AppKit.framework */,
+				30EB2EA0190902A400FB5377 /* CoreData.framework */,
+				30EB2EA1190902A400FB5377 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		30EB2EA2190902A400FB5377 /* LayerExp */ = {
+			isa = PBXGroup;
+			children = (
+				30B56A33190E331F00B357B8 /* paused-drive-icon.png */,
+				30B56A34190E331F00B357B8 /* sync.png */,
+				3073ED66190E73A600049F00 /* fold-arrow-left.png */,
+				3073ED67190E73A600049F00 /* fold-arrow.png */,
+				30C018EA190CE1C40084C5FB /* NSColor+CGColor.h */,
+				30C018EB190CE1C40084C5FB /* NSColor+CGColor.m */,
+				30B56A51190E491800B357B8 /* NSObject+Utilities.h */,
+				30B56A52190E491800B357B8 /* NSObject+Utilities.m */,
+				3073ED71190E761800049F00 /* ButtonLayer.h */,
+				3073ED72190E761800049F00 /* ButtonLayer.m */,
+				30EB2EC11909293400FB5377 /* ModalLayer.h */,
+				30EB2EC21909293400FB5377 /* ModalLayer.m */,
+				30EA01671910DDED0032D9D6 /* DetailedLayer.h */,
+				30EA01681910DDED0032D9D6 /* DetailedLayer.m */,
+				30EB2EBE190904F400FB5377 /* Modal.h */,
+				30EB2EBF190904F400FB5377 /* Modal.m */,
+				30EB2EB9190904B100FB5377 /* LayerViewController.h */,
+				30EB2EBA190904B100FB5377 /* LayerViewController.m */,
+				30EB2EBB190904B100FB5377 /* LayerViewController.xib */,
+				30EB2EAE190902A400FB5377 /* AppDelegate.h */,
+				30EB2EAF190902A400FB5377 /* AppDelegate.m */,
+				30EB2EB1190902A400FB5377 /* MainMenu.xib */,
+				30EB2EA3190902A400FB5377 /* Supporting Files */,
+				30B2D524190F852200B510F9 /* ContainerView.h */,
+				30B2D525190F852200B510F9 /* ContainerView.m */,
+				30B2D540190F8A2A00B510F9 /* NSBezierPath+CGPath.h */,
+				30B2D541190F8A2A00B510F9 /* NSBezierPath+CGPath.m */,
+				300594B419125C640050272B /* LayerLayoutManager.h */,
+				300594B519125C640050272B /* LayerLayoutManager.m */,
+			);
+			path = LayerExp;
+			sourceTree = "<group>";
+		};
+		30EB2EA3190902A400FB5377 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30EB2EA4190902A400FB5377 /* LayerExp-Info.plist */,
+				30EB2EA5190902A400FB5377 /* InfoPlist.strings */,
+				30EB2EA8190902A400FB5377 /* main.m */,
+				30EB2EAA190902A400FB5377 /* LayerExp-Prefix.pch */,
+				30EB2EAB190902A400FB5377 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30EB2E97190902A300FB5377 /* LayerExp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EB2EB6190902A400FB5377 /* Build configuration list for PBXNativeTarget "LayerExp" */;
+			buildPhases = (
+				30EB2E94190902A300FB5377 /* Sources */,
+				30EB2E95190902A300FB5377 /* Frameworks */,
+				30EB2E96190902A300FB5377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LayerExp;
+			productName = LayerExp;
+			productReference = 30EB2E98190902A400FB5377 /* LayerExp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30EB2E8F190902A300FB5377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 30EB2E92190902A300FB5377 /* Build configuration list for PBXProject "LayerExp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30EB2E8D190902A300FB5377;
+			productRefGroup = 30EB2E99190902A400FB5377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30EB2E97190902A300FB5377 /* LayerExp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30EB2E96190902A300FB5377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EB2EA7190902A400FB5377 /* InfoPlist.strings in Resources */,
+				30EB2EAD190902A400FB5377 /* Credits.rtf in Resources */,
+				30EB2EB3190902A400FB5377 /* MainMenu.xib in Resources */,
+				30EB2EBD190904B100FB5377 /* LayerViewController.xib in Resources */,
+				30B56A35190E331F00B357B8 /* paused-drive-icon.png in Resources */,
+				30B56A36190E331F00B357B8 /* sync.png in Resources */,
+				3073ED68190E73A600049F00 /* fold-arrow-left.png in Resources */,
+				3073ED69190E73A600049F00 /* fold-arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30EB2E94190902A300FB5377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EB2EA9190902A400FB5377 /* main.m in Sources */,
+				30EB2EB0190902A400FB5377 /* AppDelegate.m in Sources */,
+				30EB2EBC190904B100FB5377 /* LayerViewController.m in Sources */,
+				30EB2EC0190904F400FB5377 /* Modal.m in Sources */,
+				30EB2EC31909293400FB5377 /* ModalLayer.m in Sources */,
+				30C018EC190CE1C40084C5FB /* NSColor+CGColor.m in Sources */,
+				30B56A53190E491800B357B8 /* NSObject+Utilities.m in Sources */,
+				3073ED73190E761800049F00 /* ButtonLayer.m in Sources */,
+				30B2D526190F852200B510F9 /* ContainerView.m in Sources */,
+				30B2D542190F8A2A00B510F9 /* NSBezierPath+CGPath.m in Sources */,
+				30EA01691910DDED0032D9D6 /* DetailedLayer.m in Sources */,
+				300594B619125C650050272B /* LayerLayoutManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30EB2EA5190902A400FB5377 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30EB2EA6190902A400FB5377 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30EB2EAB190902A400FB5377 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30EB2EAC190902A400FB5377 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		30EB2EB1190902A400FB5377 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30EB2EB2190902A400FB5377 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30EB2EB4190902A400FB5377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		30EB2EB5190902A400FB5377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		30EB2EB7190902A400FB5377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LayerExp/LayerExp-Prefix.pch";
+				INFOPLIST_FILE = "LayerExp/LayerExp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30EB2EB8190902A400FB5377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LayerExp/LayerExp-Prefix.pch";
+				INFOPLIST_FILE = "LayerExp/LayerExp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30EB2E92190902A300FB5377 /* Build configuration list for PBXProject "LayerExp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EB2EB4190902A400FB5377 /* Debug */,
+				30EB2EB5190902A400FB5377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EB2EB6190902A400FB5377 /* Build configuration list for PBXNativeTarget "LayerExp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EB2EB7190902A400FB5377 /* Debug */,
+				30EB2EB8190902A400FB5377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30EB2E8F190902A300FB5377 /* Project object */;
+}
